@@ -1,0 +1,1 @@
+{"root":["./src/background.ts","./src/lib/headers.ts","./src/lib/normalize.ts","./src/lib/sheets.ts","./src/popup/main.tsx","./src/store/usezoostore.ts","./src/workspace/main.tsx","./vite.config.ts"],"version":"5.7.3"}

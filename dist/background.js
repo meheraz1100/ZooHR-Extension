@@ -1,0 +1,1 @@
+chrome.runtime.onInstalled.addListener(()=>{console.info("ZooHR extension installed.")});chrome.runtime.onMessage.addListener((e,t,r)=>((e==null?void 0:e.type)==="OPEN_WORKSPACE"&&(chrome.tabs.create({url:chrome.runtime.getURL("workspace.html")}),r({ok:!0})),!0));
